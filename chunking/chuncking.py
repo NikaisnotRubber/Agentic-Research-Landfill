@@ -18,6 +18,11 @@ from graphiti_core import Graphiti
 from graphiti_core.nodes import EpisodeType
 from graphiti_core.utils.bulk_utils import RawEpisode
 from graphiti_core.driver.neo4j_driver import Neo4jDriver
+
+# 0. Global def
+extensions = [".py", ".java", ".groovy", ".kt", ".js", ".ts"]
+
+
 # --- 1. Helper Class for Code Analysis ---
 class CodeAnalyzer(ast.NodeVisitor):
     """
@@ -88,40 +93,36 @@ class GraphState(TypedDict):
 # --- 3. LangGraph Nodes ---
 def load_code_node(state: GraphState) -> GraphState:
     """
-    Loads all specified script files from the directory.
-    從指定的目錄加載所有指定的腳本文件。
+    Loads all specified script files from the directory using a recursive tree walk.
+    使用遞歸樹遍歷從目錄中加載所有指定的腳本文件。
     """
-    print("---整行顯示程式---")
+    print("---正在從目錄樹中加載所有腳本文件---")
     dir_path = state['file_path']
     if not os.path.isdir(dir_path):
         raise FileNotFoundError(f"找不到目錄: {dir_path}")
 
-    extensions = ["py", "java", "groovy", "kt", "js", "ts"]
     documents = []
     
-    print(f"正在載入 文件...")
-    for ext in extensions:
+    print(f"正在從 {dir_path} 以樹狀搜尋載入文件...")
+    
+    file_paths = []
+    for root, _, files in os.walk(dir_path):
+        for file in files:
+            if any(file.endswith(ext) for ext in extensions):
+                file_paths.append(os.path.join(root, file))
+
+    for file_path in file_paths:
         try:
-            loader = DirectoryLoader(
-                dir_path,
-                glob=f"**/*.{ext}",
-                loader_cls=TextLoader,
-                loader_kwargs ={'encoding': 'utf-8'},
-                show_progress=False,
-                silent_errors=True,
-                use_multithreading=True,
-            )
-            loaded_docs = loader.load()
-            if loaded_docs:
-                documents.extend(loaded_docs)
-                print(f"  - 找到 {len(loaded_docs)} 個 .{ext} 文件")
+            # Each file is loaded using TextLoader
+            loader = TextLoader(file_path, encoding='utf-8')
+            documents.extend(loader.load())
         except Exception as e:
-            print(f"載入 .{ext} 文件時出錯: {e}")
+            print(f"載入文件 {file_path} 時出錯: {e}")
 
     if not documents:
-        print("警告: 在指定目錄中未找到任何有效文件。" )
+        print("警告: 在指定目錄中未找到任何有效文件。")
 
-    print(f"成功載入 {len(documents)} 個文件。" )
+    print(f"成功載入 {len(documents)} 個文件。")
     state['documents'] = documents
     state['analysis_results'] = {}
     state['chunks'] = []
@@ -140,7 +141,7 @@ def analyze_code_node(state: GraphState) -> GraphState:
 
     for doc in documents:
         file_path = doc.metadata.get('source', '')
-        if file_path.endswith('.py'):
+        if any(file_path.endswith(ext) for ext in extensions):
             try:
                 print(f"正在分析: {file_path}")
                 analyzer = CodeAnalyzer(doc.page_content)
