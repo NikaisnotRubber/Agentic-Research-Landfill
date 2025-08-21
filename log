@@ -1,0 +1,194 @@
+2025-08-21 10:25:11,596 WARN [runner.ScriptBindingsManager]: json:[projectKey:PM4QV, template:PMS Project Template, projectType:business, leadAccount:EDIE.CHOU, projectName:PM4QV-Edie_20250821_2]
+2025-08-21 10:25:11,596 WARN [runner.ScriptBindingsManager]: json template:PMS Project Template
+2025-08-21 10:25:11,596 WARN [runner.ScriptBindingsManager]: json projectKey:PM4QV
+2025-08-21 10:25:11,596 WARN [runner.ScriptBindingsManager]: json leadAccount:EDIE.CHOU
+2025-08-21 10:25:11,596 WARN [runner.ScriptBindingsManager]: json projectName:PM4QV-Edie_20250821_2
+2025-08-21 10:25:11,596 WARN [runner.ScriptBindingsManager]: template:PMS Project Template
+2025-08-21 10:25:11,596 WARN [runner.ScriptBindingsManager]: targetKey:PM4QV
+2025-08-21 10:25:11,597 WARN [runner.ScriptBindingsManager]: targetName:PM4QV-Edie_20250821_2
+2025-08-21 10:25:11,597 WARN [runner.ScriptBindingsManager]: projectLeader:EDIE.CHOU
+2025-08-21 10:25:11,605 INFO [CachingProjectKeyStore.cache]: Cache com.atlassian.jira.project.util.CachingProjectKeyStore.cache was flushed
+2025-08-21 10:25:11,630 INFO [CachingProjectRoleAndActorStore.projectRoleActors]: Cache com.atlassian.jira.security.roles.CachingProjectRoleAndActorStore.projectRoleActors was flushed
+2025-08-21 10:25:11,681 INFO [CachingProjectKeyStore.cache]: Cache com.atlassian.jira.project.util.CachingProjectKeyStore.cache was flushed
+2025-08-21 10:25:11,681 INFO [CachingProjectKeyStore.cache]: Cache com.atlassian.jira.project.util.CachingProjectKeyStore.cache was flushed
+2025-08-21 10:25:11,681 INFO [CachingProjectManager.cache]: Cache com.atlassian.jira.project.CachingProjectManager.cache was flushed
+2025-08-21 10:25:11,843 INFO [CachingProjectKeyStore.cache]: Cache com.atlassian.jira.project.util.CachingProjectKeyStore.cache was flushed
+2025-08-21 10:25:11,843 INFO [CachingProjectManager.cache]: Cache com.atlassian.jira.project.CachingProjectManager.cache was flushed
+2025-08-21 10:25:11,848 INFO [WorkflowBasedPermissionSchemeManager.projectSchemeCache]: Cache com.atlassian.jira.permission.WorkflowBasedPermissionSchemeManager.projectSchemeCache was flushed
+2025-08-21 10:25:11,854 INFO [DefaultWorkflowSchemeManager.projectSchemeCache]: Cache com.atlassian.jira.workflow.DefaultWorkflowSchemeManager.projectSchemeCache was flushed
+2025-08-21 10:25:11,854 INFO [DefaultWorkflowSchemeManager.workflowSchemeEntityCache]: Cache com.atlassian.jira.workflow.DefaultWorkflowSchemeManager.workflowSchemeEntityCache was flushed
+2025-08-21 10:25:11,854 INFO [completions.ActionDetailsProvider]: Cache com.adaptavist.hapi.jira.issues.editor.completions.ActionDetailsProvider.com.adaptavist.hapi.jira.issues.editor.completions.ActionDetailsProvider was flushed
+2025-08-21 10:25:11,859 INFO [CachedFieldConfigSchemePersister.fieldConfigSchemesById]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.fieldConfigSchemesById was flushed
+2025-08-21 10:25:11,859 INFO [CachedFieldConfigSchemePersister.fieldConfigSchemeIssueTypesBySchemeId]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.fieldConfigSchemeIssueTypesBySchemeId was flushed
+2025-08-21 10:25:12,035 INFO [FieldConfigContextPersisterWorker.configContextsBySchemeId]: Cache com.atlassian.jira.issue.context.persistence.FieldConfigContextPersisterWorker.configContextsBySchemeId was flushed
+2025-08-21 10:25:12,077 INFO [CachedFieldConfigSchemePersister.fieldConfigSchemesById]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.fieldConfigSchemesById was flushed
+2025-08-21 10:25:12,078 INFO [CachedFieldConfigSchemePersister.fieldConfigSchemeIssueTypesBySchemeId]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.fieldConfigSchemeIssueTypesBySchemeId was flushed
+2025-08-21 10:25:12,078 INFO [CachedFieldConfigSchemePersister.cacheById]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.cacheById was flushed
+2025-08-21 10:25:12,079 INFO [CachedFieldConfigSchemePersister.cacheByCustomField]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.cacheByCustomField was flushed
+2025-08-21 10:25:12,079 INFO [CachedFieldConfigSchemePersister.cacheByFieldConfig]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.cacheByFieldConfig was flushed
+2025-08-21 10:25:12,079 INFO [DefaultSearchHandlerManager.helperResettableLazyReference]: Cache com.atlassian.jira.issue.search.managers.DefaultSearchHandlerManager.helperResettableLazyReference was flushed
+2025-08-21 10:25:12,079 INFO [FieldIndexerManagerImpl.customFieldIndexers]: Cache com.atlassian.jira.issue.index.managers.FieldIndexerManagerImpl.customFieldIndexers was flushed
+2025-08-21 10:25:12,079 INFO [FieldIndexerManagerImpl.allIssueIndexers]: Cache com.atlassian.jira.issue.index.managers.FieldIndexerManagerImpl.allIssueIndexers was flushed
+2025-08-21 10:25:12,080 INFO [DefaultFieldLayoutManager.fieldSchemeCache]: Cache com.atlassian.jira.issue.fields.layout.field.DefaultFieldLayoutManager.fieldSchemeCache was flushed
+2025-08-21 10:25:12,080 INFO [DefaultFieldLayoutManager.fieldConfigurationSchemeCache]: Cache com.atlassian.jira.issue.fields.layout.field.DefaultFieldLayoutManager.fieldConfigurationSchemeCache was flushed
+2025-08-21 10:25:12,081 INFO [AbstractFieldLayoutManager.fieldLayoutCache]: Cache com.atlassian.jira.issue.fields.layout.field.AbstractFieldLayoutManager.fieldLayoutCache was flushed
+2025-08-21 10:25:12,081 INFO [DefaultColumnLayoutManager.userColumnLayoutCache]: Cache com.atlassian.jira.issue.fields.layout.column.DefaultColumnLayoutManager.userColumnLayoutCache was flushed
+2025-08-21 10:25:12,081 INFO [DefaultColumnLayoutManager.filterColumnLayoutCache]: Cache com.atlassian.jira.issue.fields.layout.column.DefaultColumnLayoutManager.filterColumnLayoutCache was flushed
+2025-08-21 10:25:12,095 INFO [DefaultWorkflowSchemeManager.workflows]: Cache com.atlassian.jira.workflow.DefaultWorkflowSchemeManager.workflows was flushed
+2025-08-21 10:25:12,095 INFO [DefaultWorkflowSchemeManager.workflowSchemeEntityCache]: Cache com.atlassian.jira.workflow.DefaultWorkflowSchemeManager.workflowSchemeEntityCache was flushed
+2025-08-21 10:25:12,098 INFO [DefaultNotificationSchemeManager.projectSchemeCache]: Cache com.atlassian.jira.notification.DefaultNotificationSchemeManager.projectSchemeCache was flushed
+2025-08-21 10:25:12,101 INFO [IssueSecuritySchemeManagerImpl.projectSchemeCache]: Cache com.atlassian.jira.issue.security.IssueSecuritySchemeManagerImpl.projectSchemeCache was flushed
+2025-08-21 10:25:12,101 INFO [IssueSecuritySchemeManagerImpl.schemeIdToSecuritiesCache]: Cache com.atlassian.jira.issue.security.IssueSecuritySchemeManagerImpl.schemeIdToSecuritiesCache was flushed
+2025-08-21 10:25:12,101 INFO [security.IssueSecuritySchemeManagerImplsecurityLevelToPermissionsCache]: Cache com.atlassian.jira.issue.security.IssueSecuritySchemeManagerImplsecurityLevelToPermissionsCache was flushed
+2025-08-21 10:25:12,108 INFO [DefaultWorkflowSchemeManager.projectSchemeCache]: Cache com.atlassian.jira.workflow.DefaultWorkflowSchemeManager.projectSchemeCache was flushed
+2025-08-21 10:25:12,109 INFO [DefaultWorkflowSchemeManager.workflowSchemeEntityCache]: Cache com.atlassian.jira.workflow.DefaultWorkflowSchemeManager.workflowSchemeEntityCache was flushed
+2025-08-21 10:25:12,109 INFO [completions.ActionDetailsProvider]: Cache com.adaptavist.hapi.jira.issues.editor.completions.ActionDetailsProvider.com.adaptavist.hapi.jira.issues.editor.completions.ActionDetailsProvider was flushed
+2025-08-21 10:25:12,111 INFO [CachingProjectKeyStore.cache]: Cache com.atlassian.jira.project.util.CachingProjectKeyStore.cache was flushed
+2025-08-21 10:25:12,111 INFO [CachingProjectManager.cache]: Cache com.atlassian.jira.project.CachingProjectManager.cache was flushed
+2025-08-21 10:25:12,619 INFO [CachedFieldConfigSchemePersister.fieldConfigSchemesById]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.fieldConfigSchemesById was flushed
+2025-08-21 10:25:12,619 INFO [CachedFieldConfigSchemePersister.fieldConfigSchemeIssueTypesBySchemeId]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.fieldConfigSchemeIssueTypesBySchemeId was flushed
+2025-08-21 10:25:12,620 INFO [CachedFieldConfigSchemePersister.cacheById]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.cacheById was flushed
+2025-08-21 10:25:12,620 INFO [CachedFieldConfigSchemePersister.cacheByCustomField]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.cacheByCustomField was flushed
+2025-08-21 10:25:12,620 INFO [CachedFieldConfigSchemePersister.cacheByFieldConfig]: Cache com.atlassian.jira.issue.fields.config.persistence.CachedFieldConfigSchemePersister.cacheByFieldConfig was flushed
+2025-08-21 10:25:12,620 INFO [CachingCustomFieldManager.cache]: Cache com.atlassian.jira.issue.managers.CachingCustomFieldManager.cache was flushed
+2025-08-21 10:25:12,620 INFO [DefaultSearchHandlerManager.helperResettableLazyReference]: Cache com.atlassian.jira.issue.search.managers.DefaultSearchHandlerManager.helperResettableLazyReference was flushed
+2025-08-21 10:25:12,620 INFO [FieldIndexerManagerImpl.customFieldIndexers]: Cache com.atlassian.jira.issue.index.managers.FieldIndexerManagerImpl.customFieldIndexers was flushed
+2025-08-21 10:25:12,620 INFO [FieldIndexerManagerImpl.allIssueIndexers]: Cache com.atlassian.jira.issue.index.managers.FieldIndexerManagerImpl.allIssueIndexers was flushed
+2025-08-21 10:25:12,622 INFO [CachingProjectRoleAndActorStore.projectRoleActors]: Cache com.atlassian.jira.security.roles.CachingProjectRoleAndActorStore.projectRoleActors was flushed
+2025-08-21 10:25:12,669 INFO [CachingProjectRoleAndActorStore.projectRoleActors]: Cache com.atlassian.jira.security.roles.CachingProjectRoleAndActorStore.projectRoleActors was flushed
+2025-08-21 10:25:12,673 INFO [IssueSecurityLevelManagerImpl.projectAndUserToSecurityLevelCache]: Cache com.atlassian.jira.issue.security.IssueSecurityLevelManagerImpl.projectAndUserToSecurityLevelCache was flushed
+2025-08-21 10:25:12,677 INFO [CachingProjectRoleAndActorStore.projectRoleActors]: Cache com.atlassian.jira.security.roles.CachingProjectRoleAndActorStore.projectRoleActors was flushed
+2025-08-21 10:25:12,677 INFO [IssueSecurityLevelManagerImpl.projectAndUserToSecurityLevelCache]: Cache com.atlassian.jira.issue.security.IssueSecurityLevelManagerImpl.projectAndUserToSecurityLevelCache was flushed
+2025-08-21 10:25:13,019 WARN [customfield.CustomFieldSearcherModuleDescriptorsImpl]: Custom field searcher module: com.innovalog.jmcf.jira-misc-custom-fields:calculatedfielddatesearcher is invalid. Null being returned.
+2025-08-21 10:25:13,743 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:18,972 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:19,020 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-1
+2025-08-21 10:25:19,070 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:19,070 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:19,070 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:19,134 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:19,254 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:19,541 INFO [matcher.JqlEventMatcher_SLOW]: JQL query '{project = "SS"} AND {issuetype = "DFx Test Failed"} AND {status = "In Progress"} AND {key in ("PM4QV-1")}' produced lucene query and took '203' ms to run.
+2025-08-21 10:25:19,563 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:19,566 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:19,566 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:19,566 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:19,571 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-1
+2025-08-21 10:25:22,890 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:23,105 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:28,156 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:28,191 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-2
+2025-08-21 10:25:28,241 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:28,241 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:28,241 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:28,294 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:28,412 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:28,676 INFO [matcher.JqlEventMatcher_SLOW]: JQL query '{project = "SS"} AND {issuetype = "DFx Test Failed"} AND {status = "In Progress"} AND {key in ("PM4QV-2")}' produced lucene query and took '182' ms to run.
+2025-08-21 10:25:28,696 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:28,700 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:28,700 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:28,700 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:28,705 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-2
+2025-08-21 10:25:28,737 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:28,974 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:34,303 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:34,338 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-3
+2025-08-21 10:25:34,378 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:34,378 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:34,378 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:34,431 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:34,536 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:34,801 INFO [matcher.JqlEventMatcher_SLOW]: JQL query '{project = "SS"} AND {issuetype = "DFx Test Failed"} AND {status = "In Progress"} AND {key in ("PM4QV-3")}' produced lucene query and took '173' ms to run.
+2025-08-21 10:25:34,819 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:34,823 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:34,823 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:34,823 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:34,828 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-3
+2025-08-21 10:25:34,859 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:35,084 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:40,011 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:40,050 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-4
+2025-08-21 10:25:40,095 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:40,095 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:40,095 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:40,165 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:40,275 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:40,522 INFO [matcher.JqlEventMatcher_SLOW]: JQL query '{project = "SS"} AND {issuetype = "DFx Test Failed"} AND {status = "In Progress"} AND {key in ("PM4QV-4")}' produced lucene query and took '166' ms to run.
+2025-08-21 10:25:40,542 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:40,545 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:40,545 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:40,545 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:40,551 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-4
+2025-08-21 10:25:40,582 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:40,810 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:45,871 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:45,906 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-5
+2025-08-21 10:25:45,951 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:45,951 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:45,951 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:46,006 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:46,127 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:46,385 INFO [matcher.JqlEventMatcher_SLOW]: JQL query '{project = "SS"} AND {issuetype = "DFx Test Failed"} AND {status = "In Progress"} AND {key in ("PM4QV-5")}' produced lucene query and took '174' ms to run.
+2025-08-21 10:25:46,407 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:46,410 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:46,410 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:46,410 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:46,416 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-5
+2025-08-21 10:25:46,451 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:46,670 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:51,592 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:51,629 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-6
+2025-08-21 10:25:51,672 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:51,673 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:51,673 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:51,729 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:51,836 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:52,099 INFO [matcher.JqlEventMatcher_SLOW]: JQL query '{project = "SS"} AND {issuetype = "DFx Test Failed"} AND {status = "In Progress"} AND {key in ("PM4QV-6")}' produced lucene query and took '176' ms to run.
+2025-08-21 10:25:52,117 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:52,120 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:52,121 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:52,121 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:52,125 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-6
+2025-08-21 10:25:52,153 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:52,413 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:57,344 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:57,378 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-7
+2025-08-21 10:25:57,420 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:57,420 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:57,420 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:57,473 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:57,577 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:57,827 INFO [matcher.JqlEventMatcher_SLOW]: JQL query '{project = "SS"} AND {issuetype = "DFx Test Failed"} AND {status = "In Progress"} AND {key in ("PM4QV-7")}' produced lucene query and took '164' ms to run.
+2025-08-21 10:25:57,848 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:57,852 INFO [acme.CreateSubtask]:  user : JIRASERVICE.API
+2025-08-21 10:25:57,852 INFO [acme.CreateSubtask]:  Deployment Owners : null
+2025-08-21 10:25:57,852 INFO [acme.CreateSubtask]:  Development Team : >>null<<, teamrc :false
+2025-08-21 10:25:57,858 DEBUG [acme.openMyDMS]: URL : https://stagedms.deltaww.com/mydms/api/v1/pms/PM4QV/redirect?taskId=PM4QV-7
+2025-08-21 10:25:57,887 INFO [acme.CreateSubtask]:  host_type : dev
+2025-08-21 10:25:57,923 ERROR [common.UserCustomScriptEndpoint]: *************************************************************************************
+2025-08-21 10:25:57,923 ERROR [common.UserCustomScriptEndpoint]: Script endpoint failed on method: POST copyProject
+com.atlassian.jira.exception.CreateException: Issue type "Milestone" does not exist in issue type scheme "PM000: Project Management Issue Type Scheme 2.0". Available issue types are Task, Sub-task.
+	at com.onresolve.scriptrunner.canned.jira.utils.AbstractCloneIssue.validateTargetIssueType(AbstractCloneIssue.groovy:630)
+	at com.onresolve.scriptrunner.canned.jira.utils.AbstractCloneIssue.validateTargetProjectAndIssueTypeExists(AbstractCloneIssue.groovy:198)
+	at com.onresolve.scriptrunner.canned.jira.utils.AbstractCloneIssue.execute(AbstractCloneIssue.groovy:185)
+	at com.onresolve.scriptrunner.canned.jira.utils.CopyIssueWithAttachments.super$4$execute(CopyIssueWithAttachments.groovy)
+	at com.onresolve.scriptrunner.canned.jira.utils.CopyIssueWithAttachments.execute(CopyIssueWithAttachments.groovy:31)
+	at com.onresolve.scriptrunner.canned.jira.workflow.postfunctions.CloneIssue.super$5$execute(CloneIssue.groovy)
+	at com.onresolve.scriptrunner.canned.jira.workflow.postfunctions.CloneIssue.execute(CloneIssue.groovy:160)
+	at com.onresolve.scriptrunner.canned.jira.workflow.postfunctions.CloneIssue$execute.call(Unknown Source)
+	at com.onresolve.scriptrunner.canned.jira.admin.CopyProject$_doCopyProject_closure14.doCall(CopyProject.groovy:611)
+	at com.onresolve.scriptrunner.canned.jira.admin.CopyProject.doCopyProject(CopyProject.groovy:590)
+	at com.onresolve.scriptrunner.canned.jira.admin.CopyProject$doCopyProject.callCurrent(Unknown Source)
+	at com.onresolve.scriptrunner.canned.jira.admin.CopyProject.execute(CopyProject.groovy:377)
+	at com.onresolve.scriptrunner.canned.jira.admin.CopyProject.execute(CopyProject.groovy)
+	at com.onresolve.scriptrunner.canned.AbstractCannedScript.doScript(AbstractCannedScript.groovy:76)
+	at Script49$_run_closure1.doCall(Script49.groovy:85)
+	at com.onresolve.scriptrunner.runner.rest.common.UserCustomScriptEndpoint$_doEndpoint_closure2.doCall(UserCustomScriptEndpoint.groovy:200)
+	at com.onresolve.scriptrunner.runner.rest.common.UserCustomScriptEndpoint$_doEndpoint_closure2.doCall(UserCustomScriptEndpoint.groovy)
+	at com.onresolve.scriptrunner.runner.diag.DiagnosticsManagerImpl$DiagnosticsExecutionHandlerImpl$_execute_closure1.doCall(DiagnosticsManagerImpl.groovy:397)
+	at com.onresolve.scriptrunner.runner.diag.DiagnosticsManagerImpl$DiagnosticsExecutionHandlerImpl$_execute_closure1.doCall(DiagnosticsManagerImpl.groovy)
+	at com.onresolve.scriptrunner.runner.ScriptExecutionRecorder.withRecording(ScriptExecutionRecorder.groovy:13)
+	at com.onresolve.scriptrunner.runner.ScriptExecutionRecorder$withRecording$0.call(Unknown Source)
+	at com.onresolve.scriptrunner.runner.diag.DiagnosticsManagerImpl$DiagnosticsExecutionHandlerImpl.execute(DiagnosticsManagerImpl.groovy:394)
+	at com.onresolve.scriptrunner.runner.rest.common.UserCustomScriptEndpoint.doEndpoint(UserCustomScriptEndpoint.groovy:234)
+	at com.onresolve.scriptrunner.runner.rest.common.UserCustomScriptEndpoint.postUserEndpoint(UserCustomScriptEndpoint.groovy:91)
